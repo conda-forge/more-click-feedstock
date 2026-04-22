@@ -1,13 +1,13 @@
 {% set name = "more-click" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/more_click-{{ version }}.tar.gz
-  sha256: 085da66d5a9b823c5d912a888dca1fa0c8b3a14ed1b21ea9c8a1b814857a3981
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/more_click-{{ version }}.tar.gz
+  sha256: c170987d37334278169fe3b9b388f1fcd9fc96439579354fd7c537537a182128
 
 build:
   noarch: python
